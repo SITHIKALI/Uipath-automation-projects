@@ -6,6 +6,8 @@
 
 These are called the core components of the UiPath Platform because RPA cannot function without the ability to develop automations (Studio), execute them (Robots), and manage the entire automation ecosystem (Orchestrator).
 
+![UiPath Demo Screenshot](./les1.png)
+
 # 🤖 UiPath Automation Projects
 
 Welcome to the **UiPath Automation Repository**. This collection includes end-to-end RPA solutions developed using UiPath Studio to automate real-world business tasks such as invoice processing, email handling, web data extraction, and more.
