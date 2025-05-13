@@ -7,6 +7,7 @@
 These are called the core components of the UiPath Platform because RPA cannot function without the ability to develop automations (Studio), execute them (Robots), and manage the entire automation ecosystem (Orchestrator).
 
 ![UiPath Demo Screenshot](./les1.png)
+
 ## Studio
 
 UiPath Studio is an integrated development environment for Automation Developers to design, develop, and debug automation projects.
@@ -38,6 +39,7 @@ The main capabilities of Orchestrator are:
 - **Automation storage and distribution**: Allows the controlled storage and distribution of automation projects, assets, and credentials, as well as large files used in automations.
 - **Running automation jobs in unattended mode**: Enables the creation and distribution of automation jobs in various ways, including through queues and triggers.
 - **Monitoring**: Allows monitoring of jobs and robots and stores logs for auditing and analytics.
+
 ### Robots
 
 A software robot is an execution agent that runs automations built with the Studio family and then published as packages either locally or to Orchestrator.
@@ -49,12 +51,16 @@ There are two types of UiPath robots, and they differ both in the way they work 
 - They're triggered directly by humans (usually through UiPath Assistant) or by an event related to what the human user does. For example, opening an application or receiving an email.
 - **UiPath Assistant** is the component that provides a friendly interface to interact with attended robots. It is the tool that we use to easily access, manage, and run automations. 
 
+![Uipath attended robot process](./attended%20robots.png)
+
 #### Unattended Robots
 - These are meant to work non-stop, with as little input from human users as possible.
 - They're deployed on separate machines, and their jobs are triggered exclusively from Orchestrator.
 - Their interactions with human users are typically handled with as little disruption as possible, by creating and sending requests for human input or validation as tasks.
 - While these await to be processed, unattended robots can continue their work by picking up other jobs.
 - When human input is finally provided, unattended robots can resume their work on the process.
+
+![Uipath unattended robot process](./unattended%20robots.png)
 
 #### Automation Cloud Robots
 Automation Cloud Robots (ACRs) are SaaS robots hosted in the UiPath Automation Cloud that let you quickly run automations without building or managing your own unattended Robot infrastructure. They come in two flavors:
@@ -68,6 +74,22 @@ These robots can be deployed to execute tests on-demand, continuously, and at sc
 - Enables activity-level unit testing out-of-the-box.
 
 ## Running Your First Process with UiPath
+
+1. Create a UiPath Automation Cloud account.
+
+2. Use Orchestrator to invite users and allocate licenses.
+
+3. Download and install Studio.
+
+4. Use Studio to create a new project, add an activity to the workflow, and publish it to Orchestrator.
+
+5. Use UiPath Assistant to run the newly published process.
+
+## Overview
+
+Using the integrated core components, the default groups in Automation Cloud, and the sign-in feature, you can easily set up an automation development environment to include an attended robot that's connected to Orchestrator.
+
+To have a good understanding of how the components work, we'll look at a scenario where a company on a Community plan uses Orchestrator as an Automation Cloud service.
 
 # 🤖 UiPath Automation Projects
 
