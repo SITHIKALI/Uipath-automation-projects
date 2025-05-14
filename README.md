@@ -89,7 +89,42 @@ These robots can be deployed to execute tests on-demand, continuously, and at sc
 
 Using the integrated core components, the default groups in Automation Cloud, and the sign-in feature, you can easily set up an automation development environment to include an attended robot that's connected to Orchestrator.
 
-To have a good understanding of how the components work, we'll look at a scenario where a company on a Community plan uses Orchestrator as an Automation Cloud service.
+Here’s how the images with suitable explanations will look in your README file:
+
+---
+
+### UiPath Studio Features Overview
+
+
+1. **Activities Panel**  
+   The Activities Panel contains all the activities you can use to build workflows in UiPath Studio.  
+   ![Activities Panel](./activities-pannel.png)
+
+2. **Data Manager**  
+   The Data Manager provides an organized view of data like variables, arguments, and assets within a project.  
+   ![Data Manager](./data-manager.png)
+
+3. **Designer Panel**  
+   The Designer Panel is where you visually design workflows by dragging and dropping activities.  
+   ![Designer Panel](./designer.png)
+
+4. **Command Palette**  
+   The Command Palette allows quick access to commands and operations in UiPath Studio.  
+   ![Command Palette](./command-pallet.png)
+
+5. **Home Tab**  
+   The Home Tab is the starting point for creating or managing automation projects in UiPath Studio.  
+   ![Home Tab](./home-tab.png)
+
+6. **Project Panel**  
+   The Project Panel provides a hierarchical view of all files and folders in your automation project.  
+   ![Project Panel](./project-pannel.png)
+
+7. **Ribbon**  
+   The Ribbon contains various tools and options to manage and edit your automation projects.  
+   ![Ribbon](./ribbon.png)
+
+---
 
 # 🤖 UiPath Automation Projects
 
