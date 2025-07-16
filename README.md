@@ -132,8 +132,14 @@ Here’s how the images with suitable explanations will look in your README file
 
 ---
 
-# 🤖 UiPath Automation Projects
+🤖 UiPath Automation Projects
 
-Welcome to the **UiPath Automation Repository**. This collection includes end-to-end RPA solutions developed using UiPath Studio to automate real-world business tasks such as invoice processing, email handling, web data extraction, and more.
+Welcome to the UiPath Automation Repository. This collection includes end-to-end RPA solutions developed using UiPath Studio to automate real-world business tasks such as invoice processing, email handling, web data extraction, and more.
+Project Folders
+
+    Calculate_Client_Security_Hashvalue
+    Generate_Yearly_Report_Dispatcher
+    Generate_yearly_report _ 2021_Performer
+
 
 
